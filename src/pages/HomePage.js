@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Nav from "../components/Nav";
 import styles from "./HomePage.module.css";
 
@@ -6,7 +7,6 @@ const HomePage = () => {
     <header className={styles.homepage}>
       <div className={`wrapper ${styles.wrapper}`}>
         <Nav />
-
         <section>
           <h2>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
@@ -17,7 +17,9 @@ const HomePage = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
             quod.
           </h3>
-          <button className="button">Explore</button>
+          <NavLink to="/login" className="button">
+            Explore
+          </NavLink>
         </section>
       </div>
     </header>
