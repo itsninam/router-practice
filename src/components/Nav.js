@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <Logo />
       <ul>
         <li>Pricing</li>

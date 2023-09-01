@@ -1,0 +1,26 @@
+.wrapper {
+  height: 70%;
+}
+
+.loginSection form {
+  background-color: var(--color-dark--2);
+  width: 350px;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.loginSection label {
+  margin-bottom: 8px;
+}
+
+.loginSection input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.loginButton {
+  float: right;
+}
