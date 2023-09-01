@@ -1,0 +1,55 @@
+:root {
+  --color-accent--1: #40916c;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #343a40;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+html {
+  height: 100vh;
+}
+
+#root,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.button {
+  background-color: var(--color-accent--1);
+  color: var(--color-light--2);
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+}
