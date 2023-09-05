@@ -1,0 +1,15 @@
+.layout {
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.layout div:first-child {
+  width: 50%;
+}
+
+.layout section:nth-child(2) {
+  background-color: var(--color-light--2);
+  color: black;
+  width: 100%;
+}
