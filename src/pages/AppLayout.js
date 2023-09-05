@@ -12,6 +12,7 @@ const AppLayout = () => {
         <NavLink to="/">
           <Logo />
         </NavLink>
+        <NavLink to="/cities" />
       </SideNav>
       <Map />
     </section>
