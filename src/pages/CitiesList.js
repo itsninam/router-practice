@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import City from "./City";
+import { CitiesContext } from "../contexts/ContextProvider";
 
-const Cities = ({ cities }) => {
+const Cities = () => {
+  const { cities } = useContext(CitiesContext);
   return (
     <ul>
       {cities.map((city) => {

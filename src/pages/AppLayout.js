@@ -1,4 +1,3 @@
-import Logo from "../components/Logo";
 import SideNav from "../components/SideNav";
 import Map from "../components/Map";
 
