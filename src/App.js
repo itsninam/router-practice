@@ -7,6 +7,7 @@ import AppLayout from "./pages/AppLayout";
 import CitiesList from "./pages/CitiesList";
 import Countries from "./pages/Countries";
 import { ContextProvider } from "./contexts/ContextProvider";
+import CityDetails from "./pages/CityDetails";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="app" element={<AppLayout />}>
           <Route index element={<Navigate replace to="cities" />} />
           <Route path="cities" element={<CitiesList />} />
+          <Route path="cities/:id" element={<CityDetails />} />
           <Route path="countries" element={<Countries />} />
           <Route path="*" element={<p>No match</p>} />
         </Route>
